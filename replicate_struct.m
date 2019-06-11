@@ -1,5 +1,8 @@
 % ===================================
 % replicate struct variables
+%   Feb/2016
+%   Written by Dongdong Chen AT Sichuan University
+%   Email: dongdongchen.scu@gmail.com
 % ===================================
 
 
