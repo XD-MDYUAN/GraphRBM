@@ -16,7 +16,7 @@ function [rbm, currentH] = train_GraphRBM_bin_bin(x, nHid, opts)
 %   version 1.0 --Feb/2016
 %
 %   Written by Dongdong Chen AT Sichuan University
-%   Email: echendongdong@gmail.com
+%   Email: dongdongchen.scu@gmail.com
     
     [nSmp, nDim ]= size(x);
     nV  = nDim;
