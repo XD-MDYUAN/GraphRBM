@@ -10,7 +10,7 @@ function [rbm, currentH] = train_GraphRBM_bin_bin(x, nHid, opts)
 % rbm           -  struct
 % currentH  -  representation of x
 %---------------------------------------------------------------------------------------------------
-% TNNLS-2017 paper: Graph regularized Restricted Boltzmann Machine
+% TNNLS-2018 paper: Graph regularized Restricted Boltzmann Machine
 %---------------------------------------------------------------------------------------------------
 %   version 2.0 --Oct/2016
 %   version 1.0 --Feb/2016
