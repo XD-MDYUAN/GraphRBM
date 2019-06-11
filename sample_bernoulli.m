@@ -1,5 +1,8 @@
 % -------------------------------------------------------------------------
 % draw sample from bernoulli distribution x
+%   Feb/2016
+%   Written by Dongdong Chen AT Sichuan University
+%   Email: dongdongchen.scu@gmail.com
 % -------------------------------------------------------------------------
 
 function y = sample_bernoulli(x, optgpu)
