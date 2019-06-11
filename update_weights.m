@@ -1,3 +1,8 @@
+% update the parameters of rbm/graphrbm.
+%   Feb/2016
+%   Written by Dongdong Chen AT Sichuan University
+%   Email: dongdongchen.scu@gmail.com
+
 function [rbm, grad] = update_weights(rbm, grad, pos, neg, momentum, lrnrate, usepcd)
 
 fname = fieldnames(rbm);
