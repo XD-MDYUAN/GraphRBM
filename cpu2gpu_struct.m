@@ -1,8 +1,10 @@
-% ======================================
 % convert struct variables from
 % gpu (jacket) to cpu
-% ======================================
-
+%---------------------------------------------------------------------------------------------------
+% TNNLS-2018 paper: Graph regularized Restricted Boltzmann Machine
+%---------------------------------------------------------------------------------------------------
+%   Written by Dongdong Chen AT Sichuan University
+%   Email: dongdongchen.scu@gmail.com
 
 function A = cpu2gpu_struct(A, optdouble)
 
