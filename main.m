@@ -1,3 +1,9 @@
+% simple example
+%---------------------------------------------------------------------------------------------------
+% TNNLS-2018 paper: Graph regularized Restricted Boltzmann Machine
+%---------------------------------------------------------------------------------------------------
+%   Written by Dongdong Chen AT Sichuan University
+%   Email: dongdongchen.scu@gmail.com
 
 dataset = 'MNIST'; %YTF_CLUSTERING_LBP, COIL20, YaleB, MNIST
 [x, y, ~, ~] = DataGen(dataset); % use your dataset by setting the value for x (data) and y (label, optional).
@@ -10,7 +16,7 @@ assert(all(x(:)>=0) && all(x(:)<=1), 'all data in x must be in [0:1]');
 
 nHid = 100;
 filename = strcat(dataset, '_graph_nknn_',num2str(0),'.mat');
-load(filename, 'phi');  % load pre-computed graph; replace the graph matrix phi with your defined graph which should of the size nSmp x nSmp
+load(filename, 'phi');  % load pre-defined graph; replace the graph matrix phi with your defined graph which should of the size nSmp x nSmp
 
 opts.GraphPhi = phi;
 opts.lambda = 1e-2;     % graph regularization
